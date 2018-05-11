@@ -1,0 +1,28 @@
+{
+  "name": "ibinex-js-bot",
+  "version": "0.0.1",
+  "description": "Ibinex Slack bot created in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlbayeta/ibinex-js-bot.git"
+  },
+  "keywords": [
+    "Bot",
+    "Slack",
+    "JS"
+  ],
+  "author": "Rey",
+  "license": "GPL-2.0+",
+  "bugs": {
+    "url": "https://github.com/rlbayeta/ibinex-js-bot/issues"
+  },
+  "homepage": "https://github.com/rlbayeta/ibinex-js-bot#readme",
+  "dependencies": {
+    "@slack/client": "^4.2.0",
+    "fs": "0.0.1-security"
+  }
+}
