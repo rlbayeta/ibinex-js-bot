@@ -6,7 +6,7 @@ const bot_token = 'xoxb-362230801749-362987719398-2fmmdl2KalRevfTBbo7AIhiw';
 const rtm       = new RtmClient(bot_token);
 const web       = new WebClient(bot_token);
 
-const robotName   = 'Ibinex JS Bot';
+const robotName   = 'jsbot';
 const allCommands = ['issue:', 'command2:'];
 
 let users = [];
@@ -25,7 +25,8 @@ function getUsernameFromId(id) {
 }
 
 rtm.on(RTM_EVENTS.MESSAGE, function handleRtmMessage(message) {
-    if (message.type === 'message' && message.text) {
+    console.log(message);
+    /*if (message.type === 'message' && message.text) {
         const userName = getUsernameFromId(message.user);
         if (userName !== robotName) {
             if (message.text.indexOf(robotName) !== -1) {
@@ -40,7 +41,7 @@ rtm.on(RTM_EVENTS.MESSAGE, function handleRtmMessage(message) {
                 });
             }
         }
-    }
+    }*/
 });
 
 web.users.list((err, data) => {
