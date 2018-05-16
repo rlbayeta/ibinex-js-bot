@@ -1,2 +1,2 @@
 # ibinex-js-bot
-Ibinex Bot created in JS
+Ibinex Bot created in JS learning experiment
